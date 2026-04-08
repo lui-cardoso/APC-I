@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello world!");
+
+    printf("%i %i %05i\n", 10, -5, 00004);
+
     return 0;
 }
