@@ -2,15 +2,7 @@
 
 int main() {
 
-    int inteiro;
-    int negativo;
-    int zeros;
-
-    inteiro = 10;
-    negativo = -5;
-    zeros = 00004;
-
-    printf("%i %i %i", inteiro, negativo, zeros);
+    printf("%i %i %05i\n", 10, -5, 00004);
 
     return 0;
 }
