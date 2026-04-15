@@ -4,13 +4,15 @@ int main() {
 
     char sexo;
     float altura;
-    float peso;
+    int peso;
 
     sexo = 'F';
     altura = 1.60f;
     peso = 55;
 
-    printf("sexo: %i\naltura: %0.2f\npeso: %0.2f\n", sexo, altura, peso);
+    printf("Sexo: %c\n", sexo);
+    printf("Altura: %.2f\n", altura);
+    printf("Peso: %i\n", peso);
 
 
     return 0;
