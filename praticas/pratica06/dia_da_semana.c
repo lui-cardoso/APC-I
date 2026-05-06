@@ -14,10 +14,14 @@ int main() {
     printf("Digite o número correspondente ao dia da semana de hoje: ");
     scanf("%i", &diaDaSemana);
 
-    if (diaDaSemana >= 2 && diaDaSemana <= 6) {
-        printf("Hoje é um dia útil.\n");
-    } else {
-        printf("Hoje é final de semana.\n");
+    switch(diaDaSemana) {
+        case 1: printf("Final de semana\n"); break;
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6: printf("Dia útil\n"); break;
+        case 7: printf("Final de semana\n"); break;
     }
 
     return 0;
